@@ -1,0 +1,74 @@
+.wrapper {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+}
+
+body {
+    background-color: #f0ead6;
+}
+/* name/back-to-home link and styling */ 
+
+h1 {
+    text-align: center;
+    font-size: x-large;
+    color: #2E4C6D
+}
+
+h2 {
+    text-align: left;
+    text-decoration: none;
+    font-size: smaller;
+    color: #2E4C6D
+}
+
+h2 a {
+    text-decoration: none;
+    color: black;
+}
+
+/* navbar */
+
+nav li {
+    list-style-type: none;
+    background-color: #f0ead6;
+    margin: 1rem;
+    border: 5px #6B9080 solid;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(6, 136, 82);
+    padding: 25px;
+}
+
+nav a:hover {
+    color: #2E4C6D;
+    background-color: #f0ead6;
+    border: 5px #2E4C6D solid;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    background-color: #f0ead6;
+    padding: 25px;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+/* styling of my homepage's main section */
+
+main p {
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #2E4C6D;
+}
+
+main img {
+    display: block;
+    margin: auto;
+    width: 25%;
+    border: 5px #6B9080 solid;
+}
