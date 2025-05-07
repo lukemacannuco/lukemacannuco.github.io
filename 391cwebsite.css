@@ -1,7 +1,9 @@
-.wrapper {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr;
+.home-wrapper {
+    display: flex; 
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f0ead6;
+    font-family: "Noto Serif", serif;
 }
 
 body {
@@ -9,7 +11,7 @@ body {
 }
 /* name/back-to-home link and styling */ 
 
-h1 {
+.home-wrapper h1 {
     text-align: center;
     font-size: x-large;
     color: #2E4C6D
@@ -33,7 +35,7 @@ nav li {
     list-style-type: none;
     background-color: #f0ead6;
     margin: 1rem;
-    border: 5px #6B9080 solid;
+   
 }
 
 nav a {
@@ -42,33 +44,103 @@ nav a {
     padding: 25px;
 }
 
+/* fix this */
+
 nav a:hover {
     color: #2E4C6D;
     background-color: #f0ead6;
-    border: 5px #2E4C6D solid;
+    border: 3px #2E4C6D solid;
+    margin: 1rem;
 }
 
 nav ul {
     display: flex;
     justify-content: center;
     background-color: #f0ead6;
-    padding: 25px;
-    margin: 0;
     flex-wrap: wrap;
 }
 
 /* styling of my homepage's main section */
 
-main p {
-    text-align: center;
-    margin-left: 50px;
-    margin-right: 50px;
-    color: #2E4C6D;
+.home-content-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+        "image textr"
+    ;
+}
+ 
+.home-image {
+    grid-area: image;
 }
 
-main img {
+.home-text {
+    grid-area: textr;
+}
+
+.home-image img {
+    width: 50%;
+    height: auto;
     display: block;
-    margin: auto;
-    width: 25%;
-    border: 5px #6B9080 solid;
+    border: 5px solid #6B9080;
+    box-sizing: border-box;
+    margin-left: 200px;
+}
+
+.home-text {
+    font-family: "Noto Serif", serif;
+    font-size: x-large;
+    font-weight: 500;
+    background-color: #f0f4f8;
+    padding: 20px;
+    border: 2px solid #2E4C6D;
+    box-sizing: border-box;
+    color: #2E4C6D;
+    margin-right: 50px;
+}
+
+.clips-wrapper {
+    display: flex; 
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f0ead6;
+    font-family: "Noto Serif", serif;
+}
+
+.clips-content-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+        "onepart1 onepart2 twopart1 twopart2"
+    ;
+}
+
+.clips-content-wrapper img {
+    width: 75%;
+    height: auto;
+    display: block;
+    border: 5px solid #6B9080;
+    box-sizing: border-box;
+}
+
+.clips-wrapper h1 {
+    font-size: x-large;
+    color: #2E4C6D
+}
+
+.clips-content-wrapper a {
+    text-decoration: none;
+    color: rgb(6, 136, 82);
+}
+
+.clips-content-wrapper a:hover {
+    color: #2E4C6D;
+    background-color: #f0ead6;
+}
+
+.clips-content-wrapper figcaption {
+    text-align: justify;
+    font-weight: bold;
 }
