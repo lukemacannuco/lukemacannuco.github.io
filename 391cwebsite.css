@@ -1,3 +1,5 @@
+/* home page */
+
 .home-wrapper {
     display: flex; 
     flex-direction: column;
@@ -9,7 +11,7 @@
 body {
     background-color: #f0ead6;
 }
-/* name/back-to-home link and styling */ 
+/* h1/h2 styling for home page */ 
 
 .home-wrapper h1 {
     text-align: center;
@@ -17,14 +19,14 @@ body {
     color: #2E4C6D
 }
 
-h2 {
+.home-wrapper h2 {
     text-align: left;
     text-decoration: none;
     font-size: smaller;
     color: #2E4C6D
 }
 
-h2 a {
+.home-wrapper h2 a {
     text-decoration: none;
     color: black;
 }
@@ -43,8 +45,6 @@ nav a {
     color: rgb(6, 136, 82);
     padding: 25px;
 }
-
-/* fix this */
 
 nav a:hover {
     color: #2E4C6D;
@@ -100,6 +100,13 @@ nav ul {
     margin-right: 50px;
 }
 
+.home-content-wrapper figcaption {
+    margin-left: 238px;
+    color:#2E4C6D; 
+    font-size: smaller;
+}
+/* journalism clips page styling */
+
 .clips-wrapper {
     display: flex; 
     flex-direction: column;
@@ -120,7 +127,7 @@ nav ul {
 .clips-content-wrapper img {
     width: 75%;
     height: auto;
-    display: block;
+    display: inline;
     border: 5px solid #6B9080;
     box-sizing: border-box;
 }
@@ -143,4 +150,206 @@ nav ul {
 .clips-content-wrapper figcaption {
     text-align: justify;
     font-weight: bold;
+    margin-left: 35px;
+}
+
+.clips-content-wrapper figcaption p {
+    text-align: justify;
+    font-size: smaller;
+}
+
+.clips-wrapper header h2 {
+    text-align: left;
+    text-decoration: none;
+    font-size: smaller;
+    color: #2E4C6D
+}
+
+.clips-wrapper header h2 a {
+    text-decoration: none;
+    color: black;
+}
+
+/* resume styling */
+
+.resume-wrapper {
+    display: flex; 
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f0ead6;
+    font-family: "Noto Serif", serif;
+    color: #2E4C6D;
+}
+
+.resume-wrapper header h2 {
+    text-align: left;
+    text-decoration: none;
+    font-size: smaller;
+    color: #2E4C6D
+}
+
+.resume-wrapper header h2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.resume-wrapper hr {
+    background-color:  #6B9080;
+    height: 5px;
+    border: none;
+}
+
+.resume-wrapper h1 {
+    text-align: center;
+}
+
+.resume-wrapper address {
+    font-style: normal;
+}
+
+.resume-wrapper address a {
+    text-decoration: none;
+    color: rgb(6, 136, 82);
+}
+
+.resume-wrapper address a:hover {
+    color: #2E4C6D;
+    background-color: #f0ead6;
+}
+
+.resume-wrapper a {
+    text-decoration: none;
+    color: rgb(6, 136, 82);
+}
+
+.resume-wrapper a:hover {
+    color: #2E4C6D;
+    background-color: #f0ead6;
+}
+
+/* academic writing sample styling */
+
+.samples-wrapper {
+    display: flex; 
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f0ead6;
+    font-family: "Noto Serif", serif;
+    color: #2E4C6D;
+}
+
+.samples-wrapper header h2 {
+    text-align: left;
+    text-decoration: none;
+    font-size: smaller;
+    color: #2E4C6D
+}
+
+.samples-wrapper header h2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.samples-astoldto {
+    font-family: "Noto Serif", serif;
+    font-size: medium;
+    font-weight: 500;
+    background-color: #f0f4f8;
+    padding: 20px;
+    border: 2px solid #2E4C6D;
+    box-sizing: border-box;
+    color: #2E4C6D;
+    gap: 20px;
+}
+
+.samples-philosophy {
+    font-family: "Noto Serif", serif;
+    font-size: medium;
+    font-weight: 500;
+    background-color: #f0f4f8;
+    padding: 20px;
+    border: 2px solid #2E4C6D;
+    box-sizing: border-box;
+    color: #2E4C6D;
+    gap: 20px;
+}
+
+.samples-vietnam {
+    font-family: "Noto Serif", serif;
+    font-size: medium;
+    font-weight: 500;
+    background-color: #f0f4f8;
+    padding: 20px;
+    border: 2px solid #2E4C6D;
+    box-sizing: border-box;
+    color: #2E4C6D;
+    gap: 20px;
+}
+
+.samples-astoldto a {
+    text-decoration: none;
+    color: rgb(6, 136, 82);
+}
+
+.samples-astoldto a:hover {
+    color: #2E4C6D;
+}
+
+.samples-philosophy a {
+    text-decoration: none;
+    color: rgb(6, 136, 82);
+}
+
+.samples-philosophy a:hover {
+    color: #2E4C6D;
+}
+
+.samples-vietnam a {
+    text-decoration: none;
+    color: rgb(6, 136, 82);
+}
+
+.samples-vietnam a:hover {
+    color: #2E4C6D;
+}
+
+/* eng391c exercise page styling */
+
+.exercises-wrapper {
+    display: flex; 
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f0ead6;
+    font-family: "Noto Serif", serif;
+    color: #2E4C6D;
+}
+
+.exercises-wrapper header h2 {
+    text-align: left;
+    text-decoration: none;
+    font-size: smaller;
+    color: #2E4C6D
+}
+
+.exercises-wrapper header h2 a {
+   text-decoration: none;
+   color: black;
+}
+
+.exercises-wrapper a {
+    text-decoration: none;
+    color: rgb(6, 136, 82);
+}
+
+.exercises-wrapper a:hover {
+    color: #2E4C6D;
+}
+
+.exercises-listr {
+    text-align: center;
+    color: #2E4C6D;
+}
+
+.exercises-listr ul {
+    list-style-type: none;
 }
