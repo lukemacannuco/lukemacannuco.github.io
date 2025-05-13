@@ -16,7 +16,7 @@ body {
 .home-wrapper h1 {
     text-align: center;
     font-size: x-large;
-    color: #2E4C6D
+    color: #2E4C6D;
 }
 
 .home-wrapper h2 {
@@ -42,7 +42,7 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: rgb(6, 136, 82);
+    color: #3D5147;
     padding: 25px;
 }
 
@@ -83,7 +83,7 @@ nav ul {
     width: 50%;
     height: auto;
     display: block;
-    border: 5px solid #6B9080;
+    border: 5px solid #3D5147;
     box-sizing: border-box;
     margin-left: 200px;
 }
@@ -128,7 +128,7 @@ nav ul {
     width: 75%;
     height: auto;
     display: inline;
-    border: 5px solid #6B9080;
+    border: 5px solid #3D5147;
     box-sizing: border-box;
 }
 
@@ -139,7 +139,7 @@ nav ul {
 
 .clips-content-wrapper a {
     text-decoration: none;
-    color: rgb(6, 136, 82);
+    color: #3D5147;
 }
 
 .clips-content-wrapper a:hover {
@@ -194,7 +194,7 @@ nav ul {
 }
 
 .resume-wrapper hr {
-    background-color:  #6B9080;
+    background-color:  #3D5147;
     height: 5px;
     border: none;
 }
@@ -209,7 +209,7 @@ nav ul {
 
 .resume-wrapper address a {
     text-decoration: none;
-    color: rgb(6, 136, 82);
+    color: #3D5147;
 }
 
 .resume-wrapper address a:hover {
@@ -219,7 +219,7 @@ nav ul {
 
 .resume-wrapper a {
     text-decoration: none;
-    color: rgb(6, 136, 82);
+    color: #3D5147;
 }
 
 .resume-wrapper a:hover {
@@ -288,7 +288,7 @@ nav ul {
 
 .samples-astoldto a {
     text-decoration: none;
-    color: rgb(6, 136, 82);
+    color: #3D5147;
 }
 
 .samples-astoldto a:hover {
@@ -297,7 +297,7 @@ nav ul {
 
 .samples-philosophy a {
     text-decoration: none;
-    color: rgb(6, 136, 82);
+    color: #3D5147;
 }
 
 .samples-philosophy a:hover {
@@ -306,7 +306,7 @@ nav ul {
 
 .samples-vietnam a {
     text-decoration: none;
-    color: rgb(6, 136, 82);
+    color: #3D5147;
 }
 
 .samples-vietnam a:hover {
@@ -328,7 +328,7 @@ nav ul {
     text-align: left;
     text-decoration: none;
     font-size: smaller;
-    color: #2E4C6D
+    color: #2E4C6D;
 }
 
 .exercises-wrapper header h2 a {
@@ -338,7 +338,7 @@ nav ul {
 
 .exercises-wrapper a {
     text-decoration: none;
-    color: rgb(6, 136, 82);
+    color: #3D5147;
 }
 
 .exercises-wrapper a:hover {
